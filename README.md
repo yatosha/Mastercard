@@ -5,4 +5,4 @@ Well, here is the funny part. We created it as a Non Mearchant Gateway even thou
 
 **Uploading**
 
-Upload the gateway to componts/gateway/non-merchant/
+Upload the gateway to components/gateway/non-merchant/
