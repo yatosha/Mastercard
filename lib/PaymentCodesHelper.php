@@ -1,38 +1,7 @@
 <?php
 
 /* 
- * PusulaSoft
- * 
- * NOTICE OF LICENSE
- * 
- * This source file is subject to the PusulaSoft Magento Extension License
- * that is available at: http://store.pusulasoft.com.tr/license/extension/magento
- * 
- * if you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@pusulasoft.com.tr so we can send you a copy immediately.
- * 
- * DISCLAIMER
- * 
- * Do not edit or add to this file if you wish to upgrade the extension
- * to newer versions in the future. If you wish to customize the extension
- * for your needs please refer to http://store.pusulasoft.com.tr/ for more information
- * or send an email to satis@pusulasoft.com.tr
- * 
- * @category   ConSoft
- * @package    ConSoft_
- * @copyright  Copyright (c) 2017 PusulaSoft
- * @license    http://store.pusulasoft.com.tr/license/extension/magento
- */
-
-//  ----------------------------------------------------------------------------
-
-// This function uses the QSI Response code retrieved from the Digital
-// Receipt and returns an appropriate description for the QSI Response Code
-//
-// @param $responseCode String containing the QSI Response Code
-//
-// @return String containing the appropriate description
+/
 //
 function getResultDescription($responseCode) {
 
