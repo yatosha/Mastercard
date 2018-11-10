@@ -1,0 +1,38 @@
+<ul>
+    <li>
+        <?php
+        $this->Form->label($this->_("Mastercard.version", true), "vpc_Version");
+        $this->Form->fieldText("version", $this->Html->ifSet($meta['version']), array('id'=>"vpc_Version"));
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_("Mastercard.command", true), "vpc_Command");
+        $this->Form->fieldText("command", $this->Html->ifSet($meta['command']), array('id'=>"vpc_Command"));
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_("Mastercard.merchant", true), "vpc_Merchant");
+        $this->Form->fieldText("merchant", $this->Html->ifSet($meta['merchant']), array('id'=>"vpc_Merchant"));
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_("Mastercard.merchant_secret_key", true), "vpc_Merchant_Secret_Key");
+        $this->Form->fieldText("merchant_secret_key", $this->Html->ifSet($meta['merchant_secret_key']), array('id'=>"vpc_Merchant_Secret_Key"));
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_("Mastercard.access_code", true), "vpc_AccessCode");
+        $this->Form->fieldText("access_code", $this->Html->ifSet($meta['access_code']), array('id'=>"vpc_AccessCode"));
+        ?>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_("Mastercard.gateway_url", true), "vpc_GatewayUrl");
+        $this->Form->fieldText("gateway_url", $this->Html->ifSet($meta['gateway_url']), array('id'=>"vpc_GatewayUrl"));
+        ?>
+    </li>    
+</ul>
