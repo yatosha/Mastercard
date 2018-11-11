@@ -36,7 +36,7 @@ class Mastercard extends NonmerchantGateway {
     }
 
     public function getCurrencies() {
-        return array("USD", "TZS");
+        return array("USD", "TZS","GBP");
     }
         
     public function setCurrency($currency) {
