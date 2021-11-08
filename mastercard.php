@@ -7,7 +7,7 @@
 class Mastercard extends NonmerchantGateway {
  
     private static $version = "1.0.3";    
-    private static $authors = array(array('name' => "Webline Technologies", 'url' => "http://www.yatosha.com"));
+    private static $authors = array(array('name' => "Webline Africa Limited", 'url' => "https://www.yatosha.com"));
     
     private $meta;
     private $postData;
